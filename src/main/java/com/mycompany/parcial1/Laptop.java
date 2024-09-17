@@ -38,4 +38,3 @@ public String getProcesador() {
     public void setProcesador(String Procesador) {
         this.Procesador = Procesador;
 )
-l
