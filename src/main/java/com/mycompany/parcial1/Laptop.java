@@ -4,7 +4,7 @@ package com.mycompany.parcial1;
 public class Laptop extends Producto {
     private String procesador;
     private int memoriaRAM;
- 
+ //constructor
     public Laptop(String nombre, String descripcion, double precio, int cantidadEnInventario, String procesador, int memoriaRAM) {
         super(nombre, descripcion, precio, cantidadEnInventario);
         this.procesador = procesador;
@@ -27,9 +27,10 @@ public class Laptop extends Producto {
     public void setMemoriaRAM(int memoriaRAM) {
         this.memoriaRAM = memoriaRAM;
     }
-<<<<<<< HEAD
-}
-=======
-}
- 
->>>>>>> b02a2766b6e2267220ce820e916147d4758388c8
+
+    @Override
+    public String toString() {
+        return "Laptop{" + "procesador=" + procesador + ", memoriaRAM=" + memoriaRAM + '}';
+    }
+    
+  }

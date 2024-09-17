@@ -33,7 +33,7 @@ public class Principal {
         }
 
     }
-<<<<<<< HEAD
+
      public static void verProductos(int opc) {
         Revista revista = new Revista();
         Libro libro = new Libro();
@@ -56,15 +56,8 @@ public class Principal {
                 publicaciones.add(revista);
 }
 
-=======
-     Scanner scanner = new Scanner(System.in);
-        System.out.println("Bienvenido");
-        
-        
-        
-        
->>>>>>> b02a2766b6e2267220ce820e916147d4758388c8
-     
+
+
     
     
 }
