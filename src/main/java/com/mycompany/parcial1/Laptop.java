@@ -39,3 +39,4 @@ public class Laptop {
     public void setProcesador(String Procesador) {
         this.Procesador = Procesador;
     }
+}
