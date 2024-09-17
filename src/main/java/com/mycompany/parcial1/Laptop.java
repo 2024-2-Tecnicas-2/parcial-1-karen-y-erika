@@ -1,41 +1,31 @@
 package com.mycompany.parcial1;
 
-public class Laptop {
-
-   private String nombre;
-   private double precio;
-   private String procesador;
-
-// Constructor
-    public Laptop(String nombre, double precio, string saldo) {
-
-        this.nombre = nombre;
-        this.precio = precio;
+// Clase Laptop
+public class Laptop extends Producto {
+    private String procesador;
+    private int memoriaRAM;
+ 
+    public Laptop(String nombre, String descripcion, double precio, int cantidadEnInventario, String procesador, int memoriaRAM) {
+        super(nombre, descripcion, precio, cantidadEnInventario);
+        this.procesador = procesador;
+        this.memoriaRAM = memoriaRAM;
+    }
+ 
+    // Getters y Setters
+    public String getProcesador() {
+        return procesador;
+    }
+ 
+    public void setProcesador(String procesador) {
         this.procesador = procesador;
     }
-// Métodos
-
-    public String getNombre() {
-        return nombre;
+ 
+    public int getMemoriaRAM() {
+        return memoriaRAM;
     }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-
+ 
+    public void setMemoriaRAM(int memoriaRAM) {
+        this.memoriaRAM = memoriaRAM;
     }
-
-    public double getPrecio() {
-        return precio;
-    }
-
-    public void setPrecio_de_paginas(int Precio) {
-        this.precio = precio;
-    }
-
-    public String getProcesador() {
-        return Procesador;
-    }
-
-    public void setProcesador(String Procesador) {
-        this.Procesador = Procesador;
-    }
+}
+ 
