@@ -2,6 +2,6 @@
 package com.mycompany.parcial1;
 
 
-public class Telefono {
+public class Cliente {
     
 }
